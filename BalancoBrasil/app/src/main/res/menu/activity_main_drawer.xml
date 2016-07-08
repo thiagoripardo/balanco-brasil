@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+
+        android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_con"
+            android:title="Consulta" />
+        <item
+            android:id="@+id/nav_map"
+            android:title="Mapa" />
+    </group>
+
+    <group
+
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_signout"
+            android:title="Sair" />
+
+    </group>
+
+</menu>
